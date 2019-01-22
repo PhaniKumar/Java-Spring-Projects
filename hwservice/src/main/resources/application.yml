@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: hwservice
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+          
+  metrics:
+    web:
+      server:
+        auto-time-requests: true
+        requests-metric-name: apiRequests

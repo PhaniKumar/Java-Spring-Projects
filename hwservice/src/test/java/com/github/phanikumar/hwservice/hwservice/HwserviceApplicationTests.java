@@ -1,4 +1,4 @@
-package com.github.phanikumar.javaspring.javaspring;
+package com.github.phanikumar.hwservice.hwservice;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,10 +7,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class JavaspringApplicationTests {
+public class HwserviceApplicationTests {
 
 	@Test
 	public void contextLoads() {
 	}
 
 }
+
