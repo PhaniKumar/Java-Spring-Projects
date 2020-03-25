@@ -40,8 +40,7 @@ public class PersonService {
 		return persons;
 	}
 	
-	@Timed(value = "update.person", longTask = true)
-	@Timed(extraTags = {"region", "asia"})
+	@Timed(value = "update.person", longTask = true, extraTags = {"region", "asia"})
 	public void updatePerson() {
 		log.info("Updating person");
 		try {
